@@ -90,6 +90,7 @@ let mapleader=" "
 nnoremap <SPACE> <Nop>
 
 noremap <leader>s :Rg<CR>
+nnoremap <silent> <Leader>f :Ag <C-R><C-W><CR>
 map <C-p> :Files<CR>
 nnoremap <Leader><space> :noh<cr>
 inoremap jk <esc>
